@@ -8,7 +8,7 @@ public class DBConnect {
 
     public static final String JDBC_URL = "jdbc:mysql://localhost:3306/chiendemo?allowPublicKeyRetrieval=true&useSSL=false";
     public static final String USERNAME = "root";
-    public static final String PASSWORD = "1821994ch";
+    public static final String PASSWORD = "12345678";
 
     public static Connection getConnection() {
         Connection connection = null;
