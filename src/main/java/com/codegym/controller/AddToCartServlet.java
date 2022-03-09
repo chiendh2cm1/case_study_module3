@@ -31,7 +31,7 @@ public class AddToCartServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 
-                int quantity = 1;
+        int quantity = 1;
         String id;
         if (request.getParameter("productId") != null) {
             id = request.getParameter("productId");
